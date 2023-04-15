@@ -1,0 +1,28 @@
+label {
+  cursor: pointer;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.checkboxes {
+  margin: 0;
+  display: none;
+  border: 1px solid #ccc;
+  border-top: 0;
+  margin-top: 10px;
+}
+
+.checkboxes.show {
+  display: block;
+}
+
+.inner-wrap {
+  padding: 5px 10px;
+  max-height: 250px;
+  overflow: auto;
+}/*# sourceMappingURL=style.css.map */
